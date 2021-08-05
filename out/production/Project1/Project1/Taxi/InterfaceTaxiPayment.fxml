@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="interfaceTaxiPaymentAnchorPane" prefHeight="551.0" prefWidth="890.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project1.Taxi.InterfaceTaxiPayment">
+   <children>
+      <AnchorPane fx:id="interfaceTaxiPaymentAnchorPaneSmall" layoutX="109.0" layoutY="104.0" prefHeight="345.0" prefWidth="712.0" style="-fx-background-color: #263238;" styleClass="an-pane1" stylesheets="@../../Mycss/Style.css">
+         <children>
+            <Label layoutX="65.0" layoutY="36.0" text="FullName:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceTaxiPaymentUserName" layoutX="159.0" layoutY="36.0" text="Tran Minh Quan" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="65.0" layoutY="68.0" text="Date:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceTaxiPaymentDate" layoutX="159.0" layoutY="68.0" text="12-08-2021" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="356.0" layoutY="68.0" text="Time:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceTaxiPaymentTime" layoutX="408.0" layoutY="68.0" text="12:50" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="65.0" layoutY="98.0" text="Airline: " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceTaxiPaymentAirline" layoutX="158.0" layoutY="98.0" text="Vietnam Airlines" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="356.0" layoutY="98.0" text="Flight Number: " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceTaxiPaymentFlightNumber" layoutX="475.0" layoutY="98.0" text="VN239" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="65.0" layoutY="128.0" text="Departure:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceTaxiPaymentDeparture" layoutX="159.0" layoutY="128.0" text="Ho Chi Minh (SGN)" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="66.0" layoutY="158.0" text="Arrival:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceTaxiPaymentArrival" layoutX="160.0" layoutY="158.0" text="Ho Chi Minh (SGN)" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="357.0" layoutY="128.0" text="Note To Driver:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="interfacTaxiPaymentTextFieldNote" layoutX="475.0" layoutY="126.0" prefHeight="25.0" prefWidth="223.0" />
+            <Label layoutX="65.0" layoutY="186.0" text="Number Of Cars:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="interfaceTaxiPaymentButtonMinus" layoutX="196.0" layoutY="184.0" mnemonicParsing="false" onAction="#minusButtonOnAction" prefHeight="30.0" prefWidth="28.0" text="-">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="interfaceTaxiPaymentButtonAdd" layoutX="279.0" layoutY="184.0" mnemonicParsing="false" onAction="#addButtonOnAction" text="+">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="interfaceTaxiPaymentNumberCar" layoutX="250.0" layoutY="189.0" text="1" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="355.0" layoutY="189.0" text="Price:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceTaxiPaymentPrice" layoutX="407.0" layoutY="189.0" text="\$34" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="65.0" layoutY="226.0" text="Payment Method:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="interfaceTaxiPaymentRadioPaymentUpon" layoutX="224.0" layoutY="228.0" mnemonicParsing="false" selected="true" text="Payment upon check in" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="Group" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="interfaceTaxiPaymentRadioMoMo" layoutX="401.0" layoutY="228.0" mnemonicParsing="false" text="MOMO" textFill="WHITE" toggleGroup="$Group">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="interfaceTaxiPaymentRadioBank" layoutX="489.0" layoutY="228.0" mnemonicParsing="false" text="Bank" textFill="WHITE" toggleGroup="$Group">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </RadioButton>
+            <Button fx:id="interfaceTaxiPaymentButtonPayment" layoutX="437.0" layoutY="282.0" mnemonicParsing="false" onAction="#paymentButtonOnAction" prefHeight="30.0" prefWidth="95.0" style="-fx-background-radius: 90;" styleClass="btn-3" stylesheets="@../../Mycss/Style.css" text="Payment">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="interfaceTaxiPaymentButtonBack" layoutX="561.0" layoutY="282.0" mnemonicParsing="false" onAction="#backButtonOnAction" prefHeight="30.0" prefWidth="95.0" style="-fx-background-radius: 90;" styleClass="btn-3" stylesheets="@../../Mycss/Style.css" text="Back">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="interfaceTaxiPaymentMessage" layoutX="69.0" layoutY="289.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

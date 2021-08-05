@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="interfaceTaxi2AnchorPane" prefHeight="551.0" prefWidth="890.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project1.Taxi.InterfaceTaxi2">
+   <children>
+      <ScrollPane fx:id="interfaceTaxi2ScrollPane" hbarPolicy="NEVER" prefHeight="551.0" prefWidth="890.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2000.0" prefWidth="890.0" style="-fx-background-color: #C4C4C4;">
+               <children>
+                  <VBox layoutX="-3.0" layoutY="-2.0" prefHeight="2000.0" prefWidth="875.0" spacing="30.0">
+                     <children>
+                        <AnchorPane prefHeight="84.0" prefWidth="879.0">
+                           <children>
+                              <Label layoutX="420.0" layoutY="11.0" text="TAXI">
+                                 <font>
+                                    <Font name="System Bold" size="48.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="interfaceTaxi2ButtonBack" layoutX="745.0" layoutY="21.0" mnemonicParsing="false" onAction="#backButtonOnAction" prefHeight="30.0" prefWidth="82.0" styleClass="btn-2" stylesheets="@../../Mycss/Style.css" text="Back">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="an-pane4" stylesheets="@../../Mycss/Style.css">
+                           <children>
+                              <ImageView fx:id="InterfaceTaxi2ImageCar1" fitHeight="156.0" fitWidth="200.0" layoutX="22.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label fx:id="interfaceTaxi2NameCar1" layoutX="248.0" layoutY="14.0" prefHeight="32.0" prefWidth="253.0" text="Name">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="248.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../ProjectFrame1/InterfaceTaxi2/icons/Passenger.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="248.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../ProjectFrame1/InterfaceTaxi2/icons/luggage.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="interfaceTaxi2Passenger1" layoutX="284.0" layoutY="87.0" text="3 Passenger">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="interfaceTaxi2Baggage1" layoutX="284.0" layoutY="126.0" text="2 Baggage">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="256.0" layoutY="167.0" text="All inclusive price - driver, fuel,  toll, parking fees, and tax.">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="interfaceTaxiButtonChoose1" layoutX="717.0" layoutY="120.0" mnemonicParsing="false" onAction="#choose1ButtonOnAction" prefHeight="39.0" prefWidth="112.0" styleClass="btn-6" stylesheets="@../../Mycss/Style.css" text="Choose">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Button>
+                              <Label fx:id="interfaceTaxi2Price1" layoutX="734.0" layoutY="88.0" text="\$35" textFill="#eb780f">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="interfaceTaxi2NameCompany1" layoutX="248.0" layoutY="49.0" prefHeight="32.0" prefWidth="253.0" text="Name cty">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="an-pane4" stylesheets="@../../Mycss/Style.css">
+                           <children>
+                              <ImageView fx:id="InterfaceTaxi2ImageCar2" fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../Pictures/ProjectFrame1/InterfaceHotel2/NhaTrangInterface2/NhaTrangHotel1.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="interfaceTaxi2NameCar2" layoutX="248.0" layoutY="14.0" prefHeight="32.0" prefWidth="253.0" text="Name">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="248.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../ProjectFrame1/InterfaceTaxi2/icons/Passenger.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="248.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../ProjectFrame1/InterfaceTaxi2/icons/luggage.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="interfaceTaxi2Passenger2" layoutX="284.0" layoutY="87.0" text="3 Passenger">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="interfaceTaxi2Baggage2" layoutX="284.0" layoutY="126.0" text="2 Baggage">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="256.0" layoutY="167.0" text="All inclusive price - driver, fuel,  toll, parking fees, and tax.">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="interfaceTaxiButtonChoose2" layoutX="717.0" layoutY="120.0" mnemonicParsing="false" onAction="#choose2ButtonOnAction" prefHeight="39.0" prefWidth="112.0" styleClass="btn-6" stylesheets="@../../Mycss/Style.css" text="Choose">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Button>
+                              <Label fx:id="interfaceTaxi2Price2" layoutX="734.0" layoutY="88.0" text="\$35" textFill="#eb780f">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="interfaceTaxi2NameCompany2" layoutX="248.0" layoutY="49.0" prefHeight="32.0" prefWidth="253.0" text="Name cty">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="an-pane4" stylesheets="@../../Mycss/Style.css">
+                           <children>
+                              <ImageView fx:id="InterfaceTaxi2ImageCar3" fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../Pictures/ProjectFrame1/InterfaceHotel2/NhaTrangInterface2/NhaTrangHotel1.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="interfaceTaxi2NameCar3" layoutX="248.0" layoutY="14.0" prefHeight="32.0" prefWidth="253.0" text="Name">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="248.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../ProjectFrame1/InterfaceTaxi2/icons/Passenger.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="248.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../ProjectFrame1/InterfaceTaxi2/icons/luggage.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="interfaceTaxi2Passenger3" layoutX="284.0" layoutY="87.0" text="3 Passenger">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="interfaceTaxi2Baggage3" layoutX="284.0" layoutY="126.0" text="2 Baggage">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="256.0" layoutY="167.0" text="All inclusive price - driver, fuel,  toll, parking fees, and tax.">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="interfaceTaxiButtonChoose3" layoutX="717.0" layoutY="120.0" mnemonicParsing="false" onAction="#choose3ButtonOnAction" prefHeight="39.0" prefWidth="112.0" styleClass="btn-6" stylesheets="@../../Mycss/Style.css" text="Choose">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Button>
+                              <Label fx:id="interfaceTaxi2Price3" layoutX="734.0" layoutY="88.0" text="\$35" textFill="#eb780f">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="interfaceTaxi2NameCompany3" layoutX="248.0" layoutY="49.0" prefHeight="32.0" prefWidth="253.0" text="Name cty">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="an-pane4" stylesheets="@../../Mycss/Style.css">
+                           <children>
+                              <ImageView fx:id="InterfaceTaxi2ImageCar4" fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../Pictures/ProjectFrame1/InterfaceHotel2/NhaTrangInterface2/NhaTrangHotel1.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="interfaceTaxi2NameCar4" layoutX="248.0" layoutY="14.0" prefHeight="32.0" prefWidth="253.0" text="Name">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="248.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../ProjectFrame1/InterfaceTaxi2/icons/Passenger.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="248.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../ProjectFrame1/InterfaceTaxi2/icons/luggage.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="interfaceTaxi2Passenger4" layoutX="284.0" layoutY="87.0" text="3 Passenger">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="interfaceTaxi2Baggage4" layoutX="284.0" layoutY="126.0" text="2 Baggage">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="256.0" layoutY="167.0" text="All inclusive price - driver, fuel,  toll, parking fees, and tax.">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="interfaceTaxiButtonChoose4" layoutX="717.0" layoutY="120.0" mnemonicParsing="false" onAction="#choose4ButtonOnAction" prefHeight="39.0" prefWidth="112.0" styleClass="btn-6" stylesheets="@../../Mycss/Style.css" text="Choose">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Button>
+                              <Label fx:id="interfaceTaxi2Price4" layoutX="734.0" layoutY="88.0" text="\$35" textFill="#eb780f">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="interfaceTaxi2NameCompany4" layoutX="248.0" layoutY="49.0" prefHeight="32.0" prefWidth="253.0" text="Name cty">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="an-pane4" stylesheets="@../../Mycss/Style.css">
+                           <children>
+                              <ImageView fx:id="InterfaceTaxi2ImageCar5" fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../Pictures/ProjectFrame1/InterfaceHotel2/NhaTrangInterface2/NhaTrangHotel1.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="interfaceTaxi2NameCar5" layoutX="248.0" layoutY="14.0" prefHeight="32.0" prefWidth="253.0" text="Name">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="248.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../ProjectFrame1/InterfaceTaxi2/icons/Passenger.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="248.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../ProjectFrame1/InterfaceTaxi2/icons/luggage.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="interfaceTaxi2Passenger5" layoutX="284.0" layoutY="87.0" text="3 Passenger">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="interfaceTaxi2Baggage5" layoutX="284.0" layoutY="126.0" text="2 Baggage">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="256.0" layoutY="167.0" text="All inclusive price - driver, fuel,  toll, parking fees, and tax.">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="interfaceTaxiButtonChoose5" layoutX="717.0" layoutY="120.0" mnemonicParsing="false" onAction="#choose5ButtonOnAction" prefHeight="39.0" prefWidth="112.0" styleClass="btn-6" stylesheets="@../../Mycss/Style.css" text="Choose">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Button>
+                              <Label fx:id="interfaceTaxi2Price5" layoutX="734.0" layoutY="88.0" text="\$35" textFill="#eb780f">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="interfaceTaxi2NameCompany5" layoutX="248.0" layoutY="49.0" prefHeight="32.0" prefWidth="253.0" text="Name cty">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="an-pane4" stylesheets="@../../Mycss/Style.css">
+                           <children>
+                              <ImageView fx:id="InterfaceTaxi2ImageCar6" fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../Pictures/ProjectFrame1/InterfaceHotel2/NhaTrangInterface2/NhaTrangHotel1.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="interfaceTaxi2NameCar6" layoutX="248.0" layoutY="14.0" prefHeight="32.0" prefWidth="253.0" text="Name">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="248.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../ProjectFrame1/InterfaceTaxi2/icons/Passenger.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="248.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../ProjectFrame1/InterfaceTaxi2/icons/luggage.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="interfaceTaxi2Passenger6" layoutX="284.0" layoutY="87.0" text="3 Passenger">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="interfaceTaxi2Baggage6" layoutX="284.0" layoutY="126.0" text="2 Baggage">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="256.0" layoutY="167.0" text="All inclusive price - driver, fuel,  toll, parking fees, and tax.">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="interfaceTaxiButtonChoose6" layoutX="717.0" layoutY="120.0" mnemonicParsing="false" onAction="#choose6ButtonOnAction" prefHeight="39.0" prefWidth="112.0" styleClass="btn-6" stylesheets="@../../Mycss/Style.css" text="Choose">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Button>
+                              <Label fx:id="interfaceTaxi2Price6" layoutX="734.0" layoutY="88.0" text="\$35" textFill="#eb780f">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="interfaceTaxi2NameCompany6" layoutX="248.0" layoutY="49.0" prefHeight="32.0" prefWidth="253.0" text="Name cty">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="an-pane4" stylesheets="@../../Mycss/Style.css">
+                           <children>
+                              <ImageView fx:id="InterfaceTaxi2ImageCar7" fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../Pictures/ProjectFrame1/InterfaceHotel2/NhaTrangInterface2/NhaTrangHotel1.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="interfaceTaxi2NameCar7" layoutX="248.0" layoutY="14.0" prefHeight="32.0" prefWidth="253.0" text="Name">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="248.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../ProjectFrame1/InterfaceTaxi2/icons/Passenger.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="248.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../ProjectFrame1/InterfaceTaxi2/icons/luggage.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="interfaceTaxi2Passenger7" layoutX="284.0" layoutY="87.0" text="3 Passenger">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="interfaceTaxi2Baggage7" layoutX="284.0" layoutY="126.0" text="2 Baggage">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="256.0" layoutY="167.0" text="All inclusive price - driver, fuel,  toll, parking fees, and tax.">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="interfaceTaxiButtonChoose7" layoutX="717.0" layoutY="120.0" mnemonicParsing="false" onAction="#choose7ButtonOnAction" prefHeight="39.0" prefWidth="112.0" styleClass="btn-6" stylesheets="@../../Mycss/Style.css" text="Choose">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Button>
+                              <Label fx:id="interfaceTaxi2Price7" layoutX="734.0" layoutY="88.0" text="\$35" textFill="#eb780f">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="interfaceTaxi2NameCompany7" layoutX="248.0" layoutY="49.0" prefHeight="32.0" prefWidth="253.0" text="Name cty">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="an-pane4" stylesheets="@../../Mycss/Style.css">
+                           <children>
+                              <ImageView fx:id="InterfaceTaxi2ImageCar8" fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../Pictures/ProjectFrame1/InterfaceHotel2/NhaTrangInterface2/NhaTrangHotel1.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="interfaceTaxi2NameCar8" layoutX="248.0" layoutY="14.0" prefHeight="32.0" prefWidth="253.0" text="Name">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="248.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../ProjectFrame1/InterfaceTaxi2/icons/Passenger.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="248.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../ProjectFrame1/InterfaceTaxi2/icons/luggage.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="interfaceTaxi2Passenger8" layoutX="284.0" layoutY="87.0" text="3 Passenger">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="interfaceTaxi2Baggage8" layoutX="284.0" layoutY="126.0" text="2 Baggage">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="256.0" layoutY="167.0" text="All inclusive price - driver, fuel,  toll, parking fees, and tax.">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="interfaceTaxiButtonChoose8" layoutX="717.0" layoutY="120.0" mnemonicParsing="false" onAction="#choose8ButtonOnAction" prefHeight="39.0" prefWidth="112.0" styleClass="btn-6" stylesheets="@../../Mycss/Style.css" text="Choose">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Button>
+                              <Label fx:id="interfaceTaxi2Price8" layoutX="734.0" layoutY="88.0" text="\$35" textFill="#eb780f">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="interfaceTaxi2NameCompany8" layoutX="248.0" layoutY="49.0" prefHeight="32.0" prefWidth="253.0" text="Name cty">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

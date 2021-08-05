@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane cache="true" prefHeight="551.0" prefWidth="890.0" styleClass="an-pane3" stylesheets="@../../Mycss/Style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project1.Flight.InterfaceTicketVietnamAirlines">
+   <children>
+      <AnchorPane layoutX="50.0" layoutY="113.0" prefHeight="282.0" prefWidth="825.0" styleClass="an-pane5" stylesheets="@../../Mycss/Style.css">
+         <children>
+            <AnchorPane prefHeight="52.0" prefWidth="825.0" styleClass="an-pane6" stylesheets="@../../Mycss/Style.css">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="177.0" layoutX="56.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../ProjectFrame1/interfaceFlight/logo_vietnam_airline_blue.PNG" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="interfaceTicketVietnamAirlinesTypeTicket" layoutX="309.0" layoutY="8.0" prefHeight="35.0" prefWidth="207.0" text="Economy Class" textFill="#fff9f9">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="30.0" fitWidth="177.0" layoutX="607.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../ProjectFrame1/interfaceFlight/logo_vietnam_airline_blue.PNG" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="253.0" prefHeight="30.0" prefWidth="825.0" styleClass="an-pane7" stylesheets="@../../Mycss/Style.css">
+               <children>
+                  <Label layoutX="373.0" layoutY="8.0" text="Boarding Pass" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="36.0" layoutY="63.0" text="Carrer:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="80.0" text="VIETNAM AIRLINES">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="112.0" text="Name:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceTicketVietnamAirlinesName1" layoutX="36.0" layoutY="129.0" text="TRAN MINH QUAN">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="163.0" text="From:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceTicketVietnamAirlinesFrom1" layoutX="37.0" layoutY="180.0" text="HO CHI MINH CITY">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="37.0" layoutY="207.0" text="To:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceTicketVietnamAirlinesTo1" layoutX="38.0" layoutY="224.0" text="CAM RANH">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="313.0" layoutY="110.0" text="Flight:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceTicketVietnamAirlinesFlight1" layoutX="313.0" layoutY="127.0" text="VN239">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="313.0" layoutY="159.0" text="Time:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceTicketVietnamAirlinesTime" layoutX="313.0" layoutY="176.0" text="14:00">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="313.0" layoutY="210.0" text="Seat:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceTicketVietnamAirlinesSeat1" layoutX="314.0" layoutY="227.0" text="22G">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="475.0" layoutY="111.0" text="Date:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceTicketVietnamAirlinesDate1" layoutX="475.0" layoutY="128.0" text="12-08-2021">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="475.0" layoutY="160.0" text="Gate:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="475.0" layoutY="177.0" text="2/T1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Line endX="5.0" endY="148.0" layoutX="586.0" layoutY="135.0" startX="5.0" startY="-135.0" />
+            <Label layoutX="591.0" layoutY="63.0" text="From:">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </Label>
+            <Label fx:id="interfaceTicketVietnamAirlinesFrom2" layoutX="592.0" layoutY="79.0" text="HO CHI MINH CITY">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </Label>
+            <Label layoutX="594.0" layoutY="104.0" text="To:">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </Label>
+            <Label fx:id="interfaceTicketVietnamAirlinesTo2" layoutX="593.0" layoutY="119.0" text="CAM RANH">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </Label>
+            <Label layoutX="590.0" layoutY="145.0" text="Flight:">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <padding>
+                  <Insets left="23.0" />
+               </padding>
+            </Label>
+            <Label layoutX="698.0" layoutY="145.0" text="Date:">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceTicketVietnamAirlinesDate2" layoutX="698.0" layoutY="162.0" text="12-08-2021">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="589.0" layoutY="187.0" text="Seat:">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <padding>
+                  <Insets left="24.0" />
+               </padding>
+            </Label>
+            <Label fx:id="interfaceTicketVietnamAirlinesSeat2" layoutX="589.0" layoutY="206.0" text="22G">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="24.0" />
+               </padding>
+            </Label>
+            <Label fx:id="interfaceTicketVietnamAirlinesFlight2" layoutX="591.0" layoutY="162.0" prefHeight="20.0" prefWidth="76.0" text="VN239">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="23.0" />
+               </padding>
+            </Label>
+            <ImageView fitHeight="52.0" fitWidth="199.0" layoutX="332.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../ProjectFrame1/interfaceFlight/Barcode.PNG" />
+               </image>
+            </ImageView>
+            <Label layoutX="401.0" layoutY="211.0" text="SEQ.  NO. :   105">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

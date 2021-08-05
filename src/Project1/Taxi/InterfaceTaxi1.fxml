@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="interfaceTaxi1AnchorPane" prefHeight="540.0" prefWidth="890.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project1.Taxi.InterfaceTaxi1">
+   <children>
+      <AnchorPane fx:id="interfaceTaxi1AnchorPaneSmall" layoutX="110.0" layoutY="111.0" prefHeight="363.0" prefWidth="722.0" style="-fx-background-color: #263238;" styleClass="an-pane1" stylesheets="@../../Mycss/Style.css">
+         <children>
+            <Label layoutX="78.0" layoutY="28.0" text="From (airport)" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="341.0" layoutY="28.0" text="To (area, address, building)" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="interfaceTaxi1ComboxFrom" layoutX="78.0" layoutY="69.0" prefHeight="25.0" prefWidth="179.0" promptText="Select the location" styleClass="combobox-1" stylesheets="@../../Mycss/Style.css" />
+            <TextField fx:id="intertfaceTaxi1TextFieldTo" layoutX="341.0" layoutY="69.0" prefHeight="25.0" prefWidth="232.0" promptText="Enter the location" styleClass="combobox-1" stylesheets="@../../Mycss/Style.css">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="78.0" layoutY="128.0" text="Pick-up Date" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="341.0" layoutY="128.0" text="Time" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <DatePicker fx:id="interfaceTaxi1DatePicker" layoutX="78.0" layoutY="163.0" prefHeight="25.0" prefWidth="179.0" styleClass="combobox-1" stylesheets="@../../Mycss/Style.css" />
+            <ComboBox fx:id="interfaceTaxi1ComboxHour" layoutX="341.0" layoutY="163.0" prefHeight="25.0" prefWidth="85.0" promptText="Hour" styleClass="combobox-1" stylesheets="@../../Mycss/Style.css" />
+            <ComboBox fx:id="interfaceTaxi1ComboxMinutes" layoutX="463.0" layoutY="163.0" prefHeight="25.0" prefWidth="85.0" promptText="Minutes" styleClass="combobox-1" stylesheets="@../../Mycss/Style.css" />
+            <Label layoutX="443.0" layoutY="158.0" text=":" textFill="#fffbfb">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="interfaceTaxi1ButonSearchTaxi" layoutX="529.0" layoutY="298.0" mnemonicParsing="false" onAction="#searchTaxiButtonOnAction" styleClass="btn-4" stylesheets="@../../Mycss/Style.css" text="Search Taxi" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="78.0" layoutY="222.0" text="Airline" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="interfaceTaxi1ComboxAirline" layoutX="78.0" layoutY="263.0" prefHeight="25.0" prefWidth="179.0" promptText="Select the carrer" styleClass="combobox-1" stylesheets="@../../Mycss/Style.css" />
+            <Label layoutX="341.0" layoutY="222.0" text="Flight Number" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="intertfaceTaxi1FightNumber" layoutX="341.0" layoutY="263.0" prefHeight="25.0" prefWidth="232.0" promptText="Enter the fight number" styleClass="combobox-1" stylesheets="@../../Mycss/Style.css">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </TextField>
+            <Label fx:id="interfaceTaxi1LabelMessage" layoutX="78.0" layoutY="320.0" prefHeight="17.0" prefWidth="303.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

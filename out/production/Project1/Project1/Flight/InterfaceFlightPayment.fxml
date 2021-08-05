@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="interfaceFlightPaymentAnchorPane" prefHeight="551.0" prefWidth="890.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project1.Flight.InterfaceFlightPayment">
+   <children>
+      <AnchorPane fx:id="interfaceFlightPaymentAnchorPaneSmall" layoutX="36.0" layoutY="57.0" prefHeight="357.0" prefWidth="793.0" style="-fx-background-color: #263238;" styleClass="an-pane1" stylesheets="@../../Mycss/Style.css">
+         <children>
+            <Label layoutX="58.0" layoutY="27.0" prefHeight="30.0" prefWidth="90.0" text="FullName:" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="interfaceFlightPaymentTextField" layoutX="148.0" layoutY="25.0" style="-fx-background-color: #263238; -fx-border-color: #76ff03;" styleClass="tf-1" stylesheets="@../../Mycss/Style.css">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="375.0" layoutY="26.0" prefHeight="30.0" prefWidth="90.0" text="From:" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceFlightPaymentFrom" layoutX="434.0" layoutY="32.0" text="HO CHI MINH CITY" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="588.0" layoutY="26.0" prefHeight="30.0" prefWidth="90.0" text="To:" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceFlightPaymentTo" layoutX="623.0" layoutY="32.0" text="HO CHI MINH CITY" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="58.0" layoutY="86.0" prefHeight="30.0" prefWidth="90.0" text="Carrer:" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceFlightPaymentCarrer" layoutX="148.0" layoutY="91.0" text="VIETNAM AIRLINES" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="375.0" layoutY="86.0" prefHeight="30.0" prefWidth="90.0" text="Flight:" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceFlightPaymentFlight" layoutX="466.0" layoutY="91.0" text="VN239" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="58.0" layoutY="191.0" prefHeight="30.0" prefWidth="90.0" text="Seat:" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceFlightPaymentSeat" layoutX="148.0" layoutY="196.0" text="22G" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="595.0" layoutY="86.0" prefHeight="30.0" prefWidth="90.0" text="Baggage:" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="686.0" layoutY="91.0" text="20 kg" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="58.0" layoutY="139.0" prefHeight="30.0" prefWidth="90.0" text="Date:" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceFlightPaymentDate" layoutX="147.0" layoutY="144.0" text="12-08-2021" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="374.0" layoutY="139.0" prefHeight="30.0" prefWidth="90.0" text="Price:" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceFlightPaymentPrice" layoutX="465.0" layoutY="144.0" text="\$35" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="60.0" layoutY="246.0" prefHeight="30.0" prefWidth="171.0" text="Payment Method:" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="interfaceFlightPaymentRadioButtonPaymentUpon" layoutX="253.0" layoutY="246.0" mnemonicParsing="false" selected="true" text="Payment upon check in" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="Group" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="interfaceFlightPaymentRadioButtonMOMO" layoutX="484.0" layoutY="246.0" mnemonicParsing="false" text="MOMO" textFill="WHITE" toggleGroup="$Group">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="interfaceFlightPaymentRadioButtonBank" layoutX="622.0" layoutY="246.0" mnemonicParsing="false" text="Bank" textFill="WHITE" toggleGroup="$Group">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </RadioButton>
+            <Button fx:id="interfaceFlightPaymentButtonPayment" layoutX="465.0" layoutY="298.0" mnemonicParsing="false" onAction="#paymentButtonOnAction" prefHeight="30.0" prefWidth="120.0" style="-fx-background-radius: 90;" styleClass="btn-3" stylesheets="@../../Mycss/Style.css" text="Payment">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="interfaceFlightPaymentButtonBack" layoutX="630.0" layoutY="298.0" mnemonicParsing="false" onAction="#backButtonOnAction" prefHeight="30.0" prefWidth="120.0" style="-fx-background-radius: 90;" styleClass="btn-3" stylesheets="@../../Mycss/Style.css" text="Back">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="interfaceFlightPaymentMessageFullName" layoutX="60.0" layoutY="69.0" prefHeight="17.0" prefWidth="279.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="interfaceFlightPaymentMessage" layoutX="60.0" layoutY="298.0" prefHeight="17.0" prefWidth="279.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="interfaceHotel3AnchorPane" prefHeight="540.0" prefWidth="890.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project1.Hotel.InterfaceHotel3">
+   <children>
+      <ScrollPane fx:id="interfaceHotel3ScrollPane" hbarPolicy="NEVER" pannable="true" prefHeight="557.0" prefWidth="890.0">
+         <content>
+            <AnchorPane prefHeight="550.0" prefWidth="890.0">
+               <children>
+                  <VBox layoutY="-2.0" prefHeight="1300.0" prefWidth="875.0">
+                     <children>
+                        <AnchorPane prefHeight="166.0" prefWidth="875.0">
+                           <children>
+                              <Label fx:id="interfaceHotel3LabelNameHotel" layoutX="14.0" layoutY="25.0" text="Name hotel">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="54.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../ProjectFrame1/InterfaceHotel3/Hotel.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic></Label>
+                              <Label fx:id="interfaceHotel3LabelMap" layoutX="14.0" layoutY="93.0" text="Map">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="54.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../ProjectFrame1/InterfaceHotel3/Map.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Label>
+                              <Button fx:id="interfaceHotel3ButtonBack" layoutX="796.0" layoutY="25.0" mnemonicParsing="false" onAction="#backButtonOnAction" styleClass="btn-2" stylesheets="@../../Mycss/Style.css" text="Back">
+                                 <font>
+                                    <Font name="Tahoma Bold" size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                        <HBox prefHeight="273.0" prefWidth="875.0" spacing="30.0">
+                           <children>
+                              <ImageView fx:id="interfaceHotel3ImageHotel1" fitHeight="250.0" fitWidth="260.0" pickOnBounds="true" preserveRatio="true">
+                                 <HBox.margin>
+                                    <Insets left="20.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <ImageView fx:id="interfaceHotel3ImageHotel2" fitHeight="250.0" fitWidth="260.0" pickOnBounds="true" preserveRatio="true" />
+                              <ImageView fx:id="interfaceHotel3ImageHotel3" fitHeight="250.0" fitWidth="260.0" pickOnBounds="true" preserveRatio="true" />
+                           </children></HBox>
+                        <HBox prefHeight="250.0" prefWidth="875.0" spacing="30.0">
+                           <children>
+                              <ImageView fx:id="interfaceHotel3ImageHotel4" fitHeight="250.0" fitWidth="260.0" pickOnBounds="true" preserveRatio="true">
+                                 <HBox.margin>
+                                    <Insets left="20.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <ImageView fx:id="interfaceHotel3ImageHotel5" fitHeight="236.0" fitWidth="260.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin></HBox>
+                        <HBox prefHeight="567.0" prefWidth="875.0">
+                           <children>
+                              <VBox prefHeight="500.0" prefWidth="500.0">
+                                 <children>
+                                    <Pane prefHeight="97.0" prefWidth="500.0">
+                                       <children>
+                                          <Label layoutX="14.0" layoutY="26.0" text="What does this place have for you ?">
+                                             <font>
+                                                <Font name="System Bold" size="28.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <HBox prefHeight="369.0" prefWidth="500.0">
+                                       <children>
+                                          <HBox prefHeight="369.0" prefWidth="250.0">
+                                             <children>
+                                                <VBox prefHeight="369.0" prefWidth="250.0" spacing="50.0">
+                                                   <children>
+                                                      <Label text="Kitchen">
+                                                         <font>
+                                                            <Font name="System Bold" size="20.0" />
+                                                         </font>
+                                                         <graphic>
+                                                            <ImageView fx:id="interfaceHotel3ImageKitchen" fitHeight="37.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@../../ProjectFrame1/InterfaceHotel3/kitchen.png" />
+                                                               </image>
+                                                            </ImageView>
+                                                         </graphic>
+                                                         <VBox.margin>
+                                                            <Insets left="30.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label text="Parking free">
+                                                         <font>
+                                                            <Font name="System Bold" size="20.0" />
+                                                         </font>
+                                                         <graphic>
+                                                            <ImageView fx:id="interfaceHotel3ImageParking" fitHeight="37.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@../../ProjectFrame1/InterfaceHotel3/parking.png" />
+                                                               </image>
+                                                            </ImageView>
+                                                         </graphic>
+                                                         <VBox.margin>
+                                                            <Insets left="30.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label text="Bacolny view">
+                                                         <font>
+                                                            <Font name="System Bold" size="20.0" />
+                                                         </font>
+                                                         <graphic>
+                                                            <ImageView fx:id="interfaceHotel3ImageBacolny" fitHeight="37.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@../../ProjectFrame1/InterfaceHotel3/house.png" />
+                                                               </image>
+                                                            </ImageView>
+                                                         </graphic>
+                                                         <VBox.margin>
+                                                            <Insets left="30.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label text="Hairdryer">
+                                                         <font>
+                                                            <Font name="System Bold" size="20.0" />
+                                                         </font>
+                                                         <graphic>
+                                                            <ImageView fx:id="interfaceHotel3ImageHairdryer" fitHeight="37.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@../../ProjectFrame1/InterfaceHotel3/hairdryer.png" />
+                                                               </image>
+                                                            </ImageView>
+                                                         </graphic>
+                                                         <VBox.margin>
+                                                            <Insets left="30.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
+                                          <VBox prefHeight="369.0" prefWidth="250.0" spacing="50.0">
+                                             <children>
+                                                <Label text="Wifi">
+                                                   <font>
+                                                      <Font name="System Bold" size="20.0" />
+                                                   </font>
+                                                   <graphic>
+                                                      <ImageView fx:id="interfaceHotel3ImageWifi" fitHeight="37.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@../../ProjectFrame1/InterfaceHotel3/wifi.png" />
+                                                         </image>
+                                                      </ImageView>
+                                                   </graphic>
+                                                   <VBox.margin>
+                                                      <Insets left="30.0" />
+                                                   </VBox.margin>
+                                                </Label>
+                                                <Label text="TV">
+                                                   <font>
+                                                      <Font name="System Bold" size="20.0" />
+                                                   </font>
+                                                   <graphic>
+                                                      <ImageView fx:id="interfaceHotel3ImageTV" fitHeight="37.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@../../ProjectFrame1/InterfaceHotel3/TV.png" />
+                                                         </image>
+                                                      </ImageView>
+                                                   </graphic>
+                                                   <VBox.margin>
+                                                      <Insets left="30.0" />
+                                                   </VBox.margin>
+                                                </Label>
+                                                <Label text="Luggage storage">
+                                                   <font>
+                                                      <Font name="System Bold" size="20.0" />
+                                                   </font>
+                                                   <graphic>
+                                                      <ImageView fx:id="interfaceHotel3ImageLuggageStorage" fitHeight="37.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@../../ProjectFrame1/InterfaceHotel3/luggage.png" />
+                                                         </image>
+                                                      </ImageView>
+                                                   </graphic>
+                                                   <VBox.margin>
+                                                      <Insets left="30.0" />
+                                                   </VBox.margin>
+                                                </Label>
+                                                <Label text="Camera">
+                                                   <font>
+                                                      <Font name="System Bold" size="20.0" />
+                                                   </font>
+                                                   <graphic>
+                                                      <ImageView fx:id="interfaceHotel3ImageCamera" fitHeight="37.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@../../ProjectFrame1/InterfaceHotel3/camera.png" />
+                                                         </image>
+                                                      </ImageView>
+                                                   </graphic>
+                                                   <VBox.margin>
+                                                      <Insets left="30.0" />
+                                                   </VBox.margin>
+                                                </Label>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                              <AnchorPane prefHeight="458.0" prefWidth="409.0">
+                                 <children>
+                                    <AnchorPane layoutX="42.0" layoutY="43.0" prefHeight="415.0" prefWidth="302.0" styleClass="an-pane2" stylesheets="@../../Mycss/Style.css">
+                                       <children>
+                                          <Label fx:id="interfaceHotel3LabelPricePerNight" layoutX="33.0" layoutY="22.0" text="\$price/night">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="33.0" layoutY="74.0" text="Check in :">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="35.0" layoutY="118.0" text="Check out :">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Button fx:id="interfaceHotel3ButtonBookRoom" layoutX="35.0" layoutY="216.0" mnemonicParsing="false" onAction="#bookRoomButtonOnAction" prefHeight="46.0" prefWidth="244.0" styleClass="btn-5" stylesheets="@../../Mycss/Style.css" text="Book room">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Button>
+                                          <Label fx:id="interfaceHotel3LabelDateCheckin" layoutX="137.0" layoutY="76.0" text="date checkin">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="interfaceHotel3LabelDateCheckout" layoutX="140.0" layoutY="120.0" text="date checkout">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="39.0" layoutY="165.0" text="Person :">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="interfaceHotel3LabelNumberPerson" layoutX="140.0" layoutY="165.0" text="number peson">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="39.0" layoutY="338.0" text="Servicing fee :">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="39.0" layoutY="311.0" text="Cleaning fee :">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="interfaceHotel3LabelPriceTotalNights" layoutX="39.0" layoutY="283.0" text="\$5 x 3 nights :">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="230.0" layoutY="311.0" text="\$2">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="230.0" layoutY="338.0" text="\$2">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="interfaceHotel3Label$TotalNights" layoutX="231.0" layoutY="283.0" text="\$500">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="39.0" layoutY="373.0" text="Total :">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="interfaceHotel3Label$TotalPayment" layoutX="230.0" layoutY="373.0" text="\$ Total">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <AnchorPane prefHeight="69.0" prefWidth="798.0" />
+   </children>
+</AnchorPane>

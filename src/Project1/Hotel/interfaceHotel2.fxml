@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="interfaceHotel2AnchorPane" prefHeight="551.0" prefWidth="890.0" stylesheets="@../../Mycss/Style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project1.Hotel.InterfaceHotel2">
+   <children>
+      <ScrollPane fx:id="interfaceHotel2ScrollPane" hbarPolicy="NEVER" pannable="true" prefHeight="551.0" prefWidth="890.0" styleClass="an-pane3" stylesheets="@../../Mycss/Style.css" vbarPolicy="ALWAYS">
+         <content>
+            <AnchorPane prefHeight="551.0" prefWidth="890.0" styleClass="an-pane3" stylesheets="@../../Mycss/Style.css">
+               <children>
+                  <VBox prefHeight="1250.0" prefWidth="874.0" stylesheets="@../../Mycss/Style.css">
+                     <children>
+                        <AnchorPane prefHeight="65.0" prefWidth="874.0">
+                           <children>
+                              <Button fx:id="interfaceHotel2ButtonBack" layoutX="788.0" layoutY="19.0" mnemonicParsing="false" onAction="#backButtonOnAction" styleClass="btn-2" stylesheets="@../../Mycss/Style.css" text="Back">
+                                 <font>
+                                    <Font name="Tahoma Bold" size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                        <HBox prefHeight="274.0" prefWidth="874.0">
+                           <children>
+                              <AnchorPane prefHeight="200.0" prefWidth="400.0">
+                                 <children>
+                                    <ImageView fx:id="interfaceHotel2Image1" fitHeight="209.0" fitWidth="297.0" layoutX="107.0" layoutY="14.0" onMouseClicked="#interfaceHotel2Image1ClickMouse" pickOnBounds="true" preserveRatio="true" />
+                                    <Label fx:id="interfaceHotel2Name1" layoutX="107.0" layoutY="232.0" text="Khách sạn">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="interfaceHotel2Price1" layoutX="291.0" layoutY="232.0" text="3.000.000 vnđ/day">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <Pane prefHeight="200.0" prefWidth="75.0" />
+                              <AnchorPane prefHeight="200.0" prefWidth="400.0">
+                                 <children>
+                                    <ImageView fx:id="interfaceHotel2Image2" fitHeight="209.0" fitWidth="297.0" layoutY="21.0" onMouseClicked="#interfaceHotel2Image2ClickMouse" pickOnBounds="true" preserveRatio="true" />
+                                    <Label fx:id="interfaceHotel2Name2" layoutX="6.0" layoutY="230.0" text="Khách sạn">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="interfaceHotel2Price2" layoutX="189.0" layoutY="230.0" text="Giá">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="274.0" prefWidth="874.0">
+                           <children>
+                              <AnchorPane prefHeight="200.0" prefWidth="400.0">
+                                 <children>
+                                    <ImageView fx:id="interfaceHotel2Image3" fitHeight="209.0" fitWidth="297.0" layoutX="107.0" layoutY="14.0" onMouseClicked="#interfaceHotel2Image3ClickMouse" pickOnBounds="true" preserveRatio="true" />
+                                    <Label fx:id="interfaceHotel2Name3" layoutX="107.0" layoutY="232.0" text="Khách sạn">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="interfaceHotel2Price3" layoutX="291.0" layoutY="232.0" text="Giá">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <Pane prefHeight="200.0" prefWidth="75.0" />
+                              <AnchorPane prefHeight="200.0" prefWidth="400.0">
+                                 <children>
+                                    <ImageView fx:id="interfaceHotel2Image4" fitHeight="209.0" fitWidth="297.0" layoutY="14.0" onMouseClicked="#interfaceHotel2Image4ClickMouse" pickOnBounds="true" preserveRatio="true" />
+                                    <Label fx:id="interfaceHotel2Name4" layoutX="6.0" layoutY="230.0" text="Khách sạn">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="interfaceHotel2Price4" layoutX="189.0" layoutY="230.0" text="Giá">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="274.0" prefWidth="874.0">
+                           <children>
+                              <AnchorPane prefHeight="200.0" prefWidth="400.0">
+                                 <children>
+                                    <ImageView fx:id="interfaceHotel2Image5" fitHeight="209.0" fitWidth="297.0" layoutX="107.0" layoutY="14.0" onMouseClicked="#interfaceHotel2Image5ClickMouse" pickOnBounds="true" preserveRatio="true" />
+                                    <Label fx:id="interfaceHotel2Name5" layoutX="107.0" layoutY="232.0" text="Khách sạn">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="interfaceHotel2Price5" layoutX="291.0" layoutY="232.0" text="Giá">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <Pane prefHeight="200.0" prefWidth="75.0" />
+                              <AnchorPane prefHeight="200.0" prefWidth="400.0">
+                                 <children>
+                                    <ImageView fx:id="interfaceHotel2Image6" fitHeight="209.0" fitWidth="297.0" layoutY="14.0" onMouseClicked="#interfaceHotel2Image6ClickMouse" pickOnBounds="true" preserveRatio="true" />
+                                    <Label fx:id="interfaceHotel2Name6" layoutX="6.0" layoutY="230.0" text="Khách sạn">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="interfaceHotel2Price6" layoutX="189.0" layoutY="230.0" text="Giá">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="274.0" prefWidth="874.0">
+                           <children>
+                              <AnchorPane prefHeight="200.0" prefWidth="400.0">
+                                 <children>
+                                    <ImageView fx:id="interfaceHotel2Image7" fitHeight="209.0" fitWidth="297.0" layoutX="107.0" layoutY="14.0" onMouseClicked="#interfaceHotel2Image7ClickMouse" pickOnBounds="true" preserveRatio="true" />
+                                    <Label fx:id="interfaceHotel2Name7" layoutX="107.0" layoutY="232.0" text="Khách sạn">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="interfaceHotel2Price7" layoutX="291.0" layoutY="232.0" text="Giá">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <Pane prefHeight="200.0" prefWidth="75.0" />
+                              <AnchorPane prefHeight="200.0" prefWidth="400.0">
+                                 <children>
+                                    <ImageView fx:id="interfaceHotel2Image8" fitHeight="209.0" fitWidth="297.0" layoutY="14.0" onMouseClicked="#interfaceHotel2Image8ClickMouse" pickOnBounds="true" preserveRatio="true" />
+                                    <Label fx:id="interfaceHotel2Name8" layoutX="6.0" layoutY="230.0" text="Khách sạn">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="interfaceHotel2Price8" layoutX="189.0" layoutY="230.0" text="Giá">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
